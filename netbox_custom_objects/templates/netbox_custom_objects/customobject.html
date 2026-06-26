@@ -136,6 +136,7 @@
     </div>
     <div class="col col-md-6">
       {% include 'inc/panels/tags.html' %}
+      {% include 'inc/panels/image_attachments.html' %}
       {% plugin_right_page object %}
       {% for group_name, group_fields in field_groups.items %}
         {% for field in group_fields %}
